@@ -1,10 +1,10 @@
 import './App.css';
+import ReminderApp from './components/ReminderApp';
 
 function App() {
   return (
     <div className="App">
-      Hari is here!
-      changing from office
+      <ReminderApp />
     </div>
   );
 }
