@@ -1,10 +1,12 @@
 import './App.css';
-import ReminderApp from './components/ReminderApp';
+import ReminderApp from './components/reminderapp/ReminderApp';
+import ToursApp from './components/toursapp/ToursApp';
 
 function App() {
   return (
     <div className="App">
-      <ReminderApp />
+      {/* <ReminderApp /> */}
+      <ToursApp />
     </div>
   );
 }
